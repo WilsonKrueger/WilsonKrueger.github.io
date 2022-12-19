@@ -1915,15 +1915,16 @@ input, select, textarea {
 		box-shadow: inset 0px 0px 0px 1px rgba(0, 0, 0, 0.15), 0px 2px 3px 0px rgba(0, 0, 0, 0.1);
 		text-align: center;
 		padding: 2em;
-		flex: 1;
 	}
 
 		.box.style1 {
 			padding: 3em 2em 3.5em 2em;
+			flex: 1;
 		}
 
 			.box.style1 h3 {
-				margin-bottom: 0.5em;
+				margin-bottom: 1em;
+				margin-top: 1em;
 			}
 
 		.box.style2 h3 {
